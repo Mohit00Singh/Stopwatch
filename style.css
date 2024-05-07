@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: azure;
+}
+
+#heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#container {
+  border: 2px solid black;
+  border-radius: 65px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+#display {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 15px;
+}
+
+#control {
+  display: flex;
+  padding: 15px;
+  margin-right: 10px;
+}
+
+#startbt {
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(58, 235, 58);
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  border: none;
+  font-weight: bolder;
+  font-size: 18px;
+  color: white;
+}
+
+#startbt:hover {
+  background-color: green;
+}
+
+#startbt:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#stopbt {
+  padding: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  border: none;
+  background-color: red;
+  font-weight: bolder;
+  font-size: 18px;
+  color: white;
+}
+
+#stopbt:hover {
+  background-color: rgb(213, 58, 58);
+}
+
+#stopbt:active {
+  background-color: rgb(213, 58, 58);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#resetbt {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  border: none;
+  background-color: blue;
+  font-weight: bolder;
+  font-size: 18px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#resetbt:hover {
+  background-color: rgb(53, 53, 202);
+}
+
+#resetbt:active {
+  background-color: rgb(53, 53, 202);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
